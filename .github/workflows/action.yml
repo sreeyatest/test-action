@@ -1,0 +1,9 @@
+name: test-action
+on : workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+       - name: test action
+         run: echo "hello sreeya!!"
+        
